@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/src/flowers.png" type="image/x-icon">
+    <title><3</title>
+</head>
+<body>
+    <div class="greetings">
+
+        <span>H</span>
+        <span>O</span>
+        <span>L</span>
+        <span>A</span>
+    </div>
+    <div class="greetings">
+        <span>A</span>
+        <span>N</span>
+        <span>Y</span>
+        <span>E</span>
+        <span>L</span>
+        <span>Y</span>&nbsp 
+        <span>N</span>
+        <span>A</span>
+        <span>O</span>
+        <span>M</span>
+        <span>Y</span>&nbsp 
+        <span>S</span>
+        <span>O</span>
+        <span>L</span>
+    </div>
+    <div class="description">
+        <span>Tengo un regalo para ti!!!</span>
+    </div>
+    <div class="button">
+        <button>
+            <a href="src/src/Flores.html">abrir</a>
+        </button>
+        
+        <div class="music">
+            <audio id="background-music" autoplay loop>
+                <source src="src/src/DFY.mp3" type="audio/mp3">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+    
+        <script>
+            // Espera a un clic para reproducir la música
+            document.body.addEventListener('click', function() {
+                var audio = document.getElementById('background-music');
+                audio.volume = 0.07;  // Volumen bajo
+                audio.play();
+            }, { once: true }); // Se ejecuta una sola vez
+        </script>
+</body>
+</html>
